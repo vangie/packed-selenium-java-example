@@ -191,7 +191,7 @@ $ mvn package && fun deploy
 ### 执行
 
 ```bash
-$  fcli function invoke -s chrome -f selenium
+$ fcli function invoke -s chrome -f selenium
   Page title is: 云端集成开发环境
 ```
 
