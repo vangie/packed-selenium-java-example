@@ -1,0 +1,3 @@
+runtime: java8
+tasks:
+  - shell: curl -L https://fc-demo-public.oss-cn-hangzhou.aliyuncs.com/fun/examples/chromedriver.tar.br -o chromedriver.tar.br

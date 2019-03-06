@@ -1,0 +1,19 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  chrome:
+    Type: 'Aliyun::Serverless::Service'
+    Properties:
+      Description: 'chrome demo'
+    selenium:
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: com.aliyun.fc.selenium.ChromeDemo::handleRequest
+        Timeout: 5
+        Initializer: com.aliyun.fc.selenium.ChromeDemo::initialize
+        InitializationTimeout: 5
+        Runtime: java8
+        Description: 'selenium'
+        CodeUri: './'
+
+        MemorySize: 448

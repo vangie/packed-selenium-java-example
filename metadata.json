@@ -1,0 +1,4 @@
+{
+    "name": "packed-selenium-java-example",
+    "copyOnlyPaths": [ "src", "pom.xml" , ".DS_Store", "chromedriver.tar.br", ".idea", "lib"]
+}
